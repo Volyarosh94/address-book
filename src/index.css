@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  color: #0000EE;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:active {
+  color: red
+}
+
+.link:visited {
+  color: purple
+}
+
+.selectItem {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.selectItem:hover {
+  background-color: #DDDDDD;
+}
