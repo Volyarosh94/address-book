@@ -49,13 +49,17 @@ export const ContactInfo = () => {
         <InfoItem icon={<ChatBubbleIcon fontSize="small" />}>Message</InfoItem>
         <InfoItem icon={<CallIcon fontSize="small" />}>
           <div className="flex flex-col">
-            <a className="link">Call mobile</a>
+            <a className="link" href={`tel:${mobilePhone}`}>
+              Call mobile
+            </a>
             <span>{mobilePhone}</span>
           </div>
         </InfoItem>
         <InfoItem icon={<CallIcon fontSize="small" />}>
           <div className="flex flex-col">
-            <a className="link">Call work</a>
+            <a className="link" href={`tel:${workPhone}`}>
+              Call work
+            </a>
             <span>{workPhone}</span>
           </div>
         </InfoItem>
